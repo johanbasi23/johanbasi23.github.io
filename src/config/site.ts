@@ -24,7 +24,7 @@ export const siteConfig = {
       contactMe: "Contáctame",
     },
     socialLinks: [
-      { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/company/astrodotbuild" },
+      { name: "LinkedIn", icon: "/svg/linkedin.svg", "https://www.linkedin.com/in/johan-ariel-basilio-cardenas-943067299" },
     ],
   },
   
@@ -61,7 +61,7 @@ export const siteConfig = {
       ],
     },
     footerText: [
-      "Suelo estar activo 🤓👆"
+      "Suelo estar activo 🤓👆",
       "Sin compromiso",
     ],
     messageButton: "💬 Dejar un mensaje",
