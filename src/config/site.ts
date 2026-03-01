@@ -1,113 +1,96 @@
 // Site-wide configuration
 export const siteConfig = {
   // Site metadata
-  name: "Astro Blog",
-  title: "Astro Blog",
-  description: "A modern blog built with Astro",
+  name: "Johan Basilio",
+  title: "Johan Basilio | Portfolio",
+  description: "Portfolio de Johan Ariel Basilio Cárdenas, estudiante de Ingeniería en Telemática y Analista de Datos en formación.",
   
   // Navigation
   navigation: {
-    home: "Home",
-    posts: "Posts",
-    contact: "Contact",
-    comments: "Comments",
+    home: "Inicio",
+    posts: "Proyectos",
+    contact: "Contacto",
+    comments: "Comentarios",
   },
   
   // Hero Section
   hero: {
-    prefix: "I am",
-    name: "Someone Name",
-    intro: "I am a web developer and blogger, passionate about sharing knowledge and building cool things with code.\nWelcome to my portfolio blog!",
+    prefix: "Hola, soy",
+    name: "Johan Basilio",
+    intro: "Estudiante de Ingeniería en Telemática y Analista de Datos en formación.\nEnfocado en cloud, redes y análisis de datos.",
     avatar: "/image/20943608.jpeg",
     buttons: {
-      viewPosts: "View Posts",
-      contactMe: "Contact Me",
+      viewPosts: "Ver Proyectos",
+      contactMe: "Contáctame",
     },
     socialLinks: [
-      { name: "Twitter", icon: "/svg/twitter.svg", url: "https://x.com/astrodotbuild" },
       { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/company/astrodotbuild" },
-      { name: "Facebook", icon: "/svg/facebook.svg", url: "https://www.facebook.com/astrodotbuild" },
-      { name: "GitHub", icon: "/svg/github.svg", url: "https://github.com/tomcomtang/astro-cartoon-portfolio" },
     ],
   },
   
   // About Section
   about: {
-    title: "About Me",
-    text: "Hi, I'm Someone, a passionate web developer and blogger. I love exploring new technologies and sharing knowledge with the community. On this blog, you'll find my thoughts on web development, tutorials, and project showcases. I hope my content can inspire others in their coding journey.",
+    title: "Sobre mi",
+    text: "Estudiante de Ingeniería en Telemática con enfoque en cloud y análisis de datos. Me encuentro en una etapa de exploración, consolidando conocimientos en Python, SQL, Power BI y redes, mientras defino mi especialización. Disfruto los retos técnicos y creo que publicar mis proyectos, aunque sean iniciales, es parte del proceso de crecer como profesional. Fuera de la pantalla, soy fanático del Barça y la música es mi compañía constante.",
   },
   
   // Contact Page
   contact: {
-    title: "Get In Touch",
-    subtitle: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
+    title: "Contáctame",
+    subtitle: "Siempre estoy abierto a conversar sobre nuevos proyectos, ideas o simplemente conectar.",
     info: {
       email: {
-        label: "Email",
-        value: "tom@example.com",
-        link: "mailto:tom@example.com",
+        label: "Correo",
+        value: "johanbasilio23@gmail.com",
+        link: "mailto:johanbasilio23@gmail.com",
       },
       phone: {
-        label: "Phone",
-        value: "+1 (234) 567-890",
-        link: "tel:+1 (234) 567-890",
+        label: "Teléfono",
+        value: "+593 99 178 2071",
+        link: "tel:+593 99 178 2071",
       },
       location: {
-        label: "Location",
-        value: "San Francisco, CA",
+        label: "Ubicacion",
+        value: "Ecuador, GYE",
       },
     },
     followMe: {
-      title: "Follow Me",
+      title: "Sígueme",
       links: [
-        { name: "Twitter", icon: "/svg/twitter.svg", url: "https://x.com/astrodotbuild" },
-        { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/company/astrodotbuild" },
-        { name: "Facebook", icon: "/svg/facebook.svg", url: "https://www.facebook.com/astrodotbuild" },
-        { name: "GitHub", icon: "/svg/github.svg", url: "https://github.com/tomcomtang/astro-cartoon-portfolio" },
+        { name: "LinkedIn", icon: "/svg/linkedin.svg", url: https://www.linkedin.com/in/johan-ariel-basilio-cárdenas-943067299" },
       ],
     },
     footerText: [
-      "I typically respond to messages within 24 hours during business days.",
-      "Looking forward to hearing from you! 🚀",
+      "Suelo estar activo 🤓👆"
+      "Sin compromiso",
     ],
-    messageButton: "💬 Leave a Message",
+    messageButton: "💬 Dejar un mensaje",
   },
   
   // Footer
   footer: {
-    copyright: "© 2025 Someone. All rights reserved.",
-    links: [
-      { text: "Privacy Policy", url: "#" },
-      { text: "Terms of Service", url: "#" },
-      { text: "Sitemap", url: "#" },
-    ],
+    copyright: "© 2025 Johan Basilio. Todos los derechos reservados.",
+    links: [],
     github: {
-      text: "Star this project on Github",
-      url: "https://github.com/tomcomtang/astro-cartoon-portfolio",
+      text: "Ver en GitHub",
+      url: "https://github.com/johanbasi23",
     },
   },
   
   // Posts Page
   posts: {
-    title: "Blog Posts",
-    subtitle: "Explore our latest articles on web development, design, and technology",
-    searchPlaceholder: "Search posts...",
+    title: "Proyectos",
+    subtitle: "Una colección de mis proyectos y actividades académicas... pequeños pasos en un camino que apenas empieza.",
+    searchPlaceholder: "Buscar proyectos...",
   },
   
   // Comments Page
   comments: {
-    title: "Comments & Discussion",
-    subtitle: "Share your thoughts, questions, or suggestions here. Let's connect and discuss!",
+    title: "Comentarios y Discusión",
+    subtitle: "Comparte tus ideas, preguntas o sugerencias.",
     guidelines: {
-      title: "Community Guidelines",
-      items: [
-        "Be respectful and constructive in your comments",
-        "No spam, self-promotion, or advertising allowed",
-        "No personal attacks, hate speech, or harassment",
-        "Stay on topic and keep discussions relevant",
-        "No inappropriate, offensive, or illegal content",
-        "Use clear, friendly, and inclusive language",
-      ],
+      title: "",
+      items: [],
     },
   },
 };
