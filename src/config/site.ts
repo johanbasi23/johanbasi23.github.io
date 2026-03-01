@@ -57,7 +57,7 @@ export const siteConfig = {
     followMe: {
       title: "Sígueme",
       links: [
-        { name: "LinkedIn", icon: "/svg/linkedin.svg", url: https://www.linkedin.com/in/johan-ariel-basilio-cárdenas-943067299" },
+        { name: "LinkedIn", icon: "/svg/linkedin.svg", url: https://www.linkedin.com/in/johan-ariel-basilio-cardenas-943067299" },
       ],
     },
     footerText: [
