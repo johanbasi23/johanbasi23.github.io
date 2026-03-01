@@ -17,7 +17,7 @@ export const siteConfig = {
   hero: {
     prefix: "Hola, soy",
     name: "Johan Basilio",
-    intro: "Estudiante de Ingeniería en Telemática y Analista de Datos en formación.\nEnfocado en cloud, redes y análisis de datos.",
+    intro: 'Estudiante de Ingeniería en Telemática y Analista de Datos en formación.\nEnfocado en cloud, redes y análisis de datos.',
     avatar: "/image/20943608.jpeg",
     buttons: {
       viewPosts: "Ver Proyectos",
